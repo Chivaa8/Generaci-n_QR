@@ -1,4 +1,4 @@
-Generador de QR para Reseñas ⭐⭐⭐⭐⭐
+# Generador de QR para Reseñas ⭐⭐⭐⭐⭐
 
 Este proyecto genera una imagen en formato A4 con:
 
@@ -20,4 +20,5 @@ Instalar dependencias:
 
 ```bash
 pip install pillow qrcode
+
 
