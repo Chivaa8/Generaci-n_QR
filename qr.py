@@ -58,7 +58,7 @@ draw = ImageDraw.Draw(canvas)
 
 # --- FUENTES ---
 font_top = ImageFont.truetype("arial.ttf", 120)
-font_script = ImageFont.truetype(fuente_script, 260)  # tamaño exacto como tu placa
+font_script = ImageFont.truetype(fuente_script, 260)  
 font_google = ImageFont.truetype("arial.ttf", 150)
 font_stars = ImageFont.truetype(r"C:\Windows\Fonts\seguisym.ttf", 160)
 
@@ -66,7 +66,7 @@ font_stars = ImageFont.truetype(r"C:\Windows\Fonts\seguisym.ttf", 160)
 def cx(text, font):
     return int((W - font.getlength(text)) / 2)
 
-# --- POSICIÓN QR (igual que placa) ---
+# --- POSICIÓN QR  ---
 qr_x = (W - qr_final.size[0]) // 2
 qr_y = 1150   
 
